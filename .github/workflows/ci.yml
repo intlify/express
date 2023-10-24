@@ -30,7 +30,7 @@ jobs:
         run: corepack enable
 
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
 
@@ -60,7 +60,7 @@ jobs:
         run: corepack enable
 
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
 
@@ -87,7 +87,7 @@ jobs:
         uses: oven-sh/setup-bun@v1
 
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
 
@@ -118,7 +118,7 @@ jobs:
       - name: Setup bun
         uses: oven-sh/setup-bun@v1
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
 
