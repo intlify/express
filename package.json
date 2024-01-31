@@ -80,7 +80,7 @@
     "bumpp": "^9.2.0",
     "gh-changelogen": "^0.2.8",
     "npm-run-all2": "^5.0.0",
-    "lint-staged": "^14.0.0",
+    "lint-staged": "^15.0.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
     "unbuild": "^2.0.0",
