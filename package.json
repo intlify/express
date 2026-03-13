@@ -77,7 +77,7 @@
     "@typescript-eslint/parser": "^6.7.2",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
-    "bumpp": "^9.2.0",
+    "bumpp": "^10.0.0",
     "gh-changelogen": "^0.2.8",
     "npm-run-all2": "^5.0.0",
     "lint-staged": "^14.0.0",
